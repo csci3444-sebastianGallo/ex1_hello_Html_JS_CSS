@@ -7,6 +7,8 @@
 var myStrVar1 = "string1";
 var myStrVar2 = 'string2';
 // Number variable
+var sebNumber1 = 8;
+var sebNumber2 = 2;
 var myNumberVar1 = 101;
 var myNumberVar2 = 200.345;
 // Object variable, like an instance of a Class in other OO languages
@@ -26,6 +28,9 @@ console.log("myObject.myStr is " + myObject.myStr);
 console.log("myObject.myInnerObj.myInnerStr is " + myObject.myInnerObj.myInnerStr);
 // method_2 Accessing object attributes(elements) via object's "associative array" behaviour. Via ["attributeName"]
 console.log("myObject['myStr'] is " + myObject['myStr']);
+
+//Sebastians changes
+console.log(sebNumber1 + sebNumber2);
 
 // Array variable
 var myArray1 = [1, 2, 3, 4, 5];
